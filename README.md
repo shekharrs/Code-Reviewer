@@ -91,7 +91,7 @@ Code-Reviewer/
 
 ## 📸 Screenshots & Video
 🚀 Add images of your UI here for better visualization!  
-🎥 Watch a demo video: [Sample Video Link](https://www.example.com/sample-video)
+🎥 Watch a demo video: https://www.example.com/sample-video
 
 ---
 
