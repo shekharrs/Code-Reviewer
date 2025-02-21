@@ -96,9 +96,6 @@ Code-Reviewer/
 
 ---
 
-## 📸 Screenshots & Video  
-🎥 Watch a demo video: [Sample Video Link](https://www.example.com/sample-video)
-
 ---
 
 ## 🤝 Contributing
