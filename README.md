@@ -21,23 +21,23 @@ cd Code-Reviewer
 ### **2️⃣ Install Dependencies**
 ```sh
 # Install server dependencies
-cd server
+cd Backend
 npm install
 
 # Install frontend dependencies
-cd ../client
+cd ../Frontend
 npm install
 ```
 
 ### **3️⃣ Start the Server**
 ```sh
-cd server
+cd Backend
 node index.js
 ```
 
 ### **4️⃣ Run the Frontend**
 ```sh
-cd ../client
+cd ../Frontend
 npm start
 ```
 
@@ -46,21 +46,28 @@ npm start
 ## 📌 Project Structure
 ```
 Code-Reviewer/
-│── server/                # Backend server
-│   ├── index.js           # Express server setup
-│   ├── routes.js          # API routes for AI integration
+│── Backend/               # Backend server
+│   ├── src/               # Source files
+│   ├── server.js          # Express server setup
+│   ├── .env               # Environment variables
 │   ├── package.json       # Node.js dependencies
+│   ├── package-lock.json  # Lock file for dependencies
+│   ├── .gitignore         # Git ignored files
 │
-│── client/                # Frontend application
+│── Frontend/              # Frontend application
 │   ├── src/
-│   │   ├── components/    # UI components
-│   │   ├── App.js         # Main React component
+│   │   ├── assets/        # Static assets like images
+│   │   ├── App.jsx        # Main React component
 │   │   ├── App.css        # Styling
-│   │   ├── index.js       # React entry point
+│   │   ├── main.jsx       # React entry point
+│   │   ├── index.css      # Global styles
+│   ├── public/            # Public assets like index.html
 │   ├── package.json       # React dependencies
-│
-│── README.md              # Documentation
-│── .gitignore             # Git ignored files
+│   ├── package-lock.json  # Lock file for dependencies
+│   ├── vite.config.js     # Vite configuration
+│   ├── eslint.config.js   # ESLint configuration
+│   ├── README.md          # Documentation
+│   ├── .gitignore         # Git ignored files
 ```
 
 ---
@@ -89,9 +96,8 @@ Code-Reviewer/
 
 ---
 
-## 📸 Screenshots & Video
-🚀 Add images of your UI here for better visualization!  
-🎥 Watch a demo video: [Sample Video Link](C:\Users\shekh\Videos\Screen Recordings\Screen Recording 2025-02-21 165958.mp4)
+## 📸 Screenshots & Video  
+🎥 Watch a demo video: [Sample Video Link](https://www.example.com/sample-video)
 
 ---
 
