@@ -31,6 +31,15 @@ main .left{
   position: relative;
 }
 
+.left .code,
+.code pre{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color:#0c0c0c;
+}
+
 main .left .review{
   background-color: rgb(219, 219, 255);
   color: black;
@@ -53,4 +62,22 @@ main .left .review:active{
 
 main .right{
   background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  overflow: auto;
+}
+
+/* loader */
+.loader {
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
